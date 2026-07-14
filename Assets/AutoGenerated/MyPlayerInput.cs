@@ -71,6 +71,33 @@ public partial class @MyPlayerInput: IInputActionCollection2, IDisposable
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Roll Dice"",
+                    ""type"": ""Button"",
+                    ""id"": ""18be4890-c89f-4a95-90d6-217a5bc62124"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Move screen view"",
+                    ""type"": ""Button"",
+                    ""id"": ""736696d4-41af-4b36-ac6e-aea257232079"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Zoom in/out Screen"",
+                    ""type"": ""Button"",
+                    ""id"": ""41e14d46-636a-41ce-aa6a-cc1996510ade"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
                 }
             ],
             ""bindings"": [
@@ -379,6 +406,127 @@ public partial class @MyPlayerInput: IInputActionCollection2, IDisposable
                     ""processors"": """",
                     ""groups"": """",
                     ""action"": ""Kick"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""8548ae5b-9030-4a7e-bfb4-2c674427c857"",
+                    ""path"": ""<Keyboard>/enter"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Roll Dice"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": ""WASD"",
+                    ""id"": ""5e9acab8-b501-468d-bd16-1cf1196b3b8f"",
+                    ""path"": ""Dpad"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Move screen view"",
+                    ""isComposite"": true,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": ""up"",
+                    ""id"": ""4200c8a6-a306-4511-982a-f557e0125051"",
+                    ""path"": ""<Keyboard>/w"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Move screen view"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": ""up"",
+                    ""id"": ""f0b893b3-f1a5-408d-a03e-b30ae5747d28"",
+                    ""path"": ""<Keyboard>/upArrow"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Move screen view"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": ""down"",
+                    ""id"": ""016d51ba-99ed-414a-a94f-23d4ecaed985"",
+                    ""path"": ""<Keyboard>/s"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Move screen view"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": ""down"",
+                    ""id"": ""71d0bfb0-00fa-4a34-96ef-fcb62bb1c5b6"",
+                    ""path"": ""<Keyboard>/downArrow"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Move screen view"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": ""left"",
+                    ""id"": ""d7e2acae-2269-448f-977b-45825ae2a852"",
+                    ""path"": ""<Keyboard>/a"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Move screen view"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": ""left"",
+                    ""id"": ""bbcfccc2-888b-4f0e-802f-236122ea058d"",
+                    ""path"": ""<Keyboard>/leftArrow"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Move screen view"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": ""right"",
+                    ""id"": ""07cef565-8989-4a1a-89e3-698295eb4923"",
+                    ""path"": ""<Keyboard>/d"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Move screen view"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": ""right"",
+                    ""id"": ""474ab978-c4c4-466c-b660-ed8af6dc5ea4"",
+                    ""path"": ""<Keyboard>/rightArrow"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Move screen view"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""6d2c56a9-1721-47fa-aaff-65e9539a5057"",
+                    ""path"": ""<Keyboard>/ctrl"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Zoom in/out Screen"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 }
@@ -1041,6 +1189,9 @@ public partial class @MyPlayerInput: IInputActionCollection2, IDisposable
         m_Player_Fire = m_Player.FindAction("Fire", throwIfNotFound: true);
         m_Player_MousePosition = m_Player.FindAction("MousePosition", throwIfNotFound: true);
         m_Player_Kick = m_Player.FindAction("Kick", throwIfNotFound: true);
+        m_Player_RollDice = m_Player.FindAction("Roll Dice", throwIfNotFound: true);
+        m_Player_Movescreenview = m_Player.FindAction("Move screen view", throwIfNotFound: true);
+        m_Player_ZoominoutScreen = m_Player.FindAction("Zoom in/out Screen", throwIfNotFound: true);
         // UI
         m_UI = asset.FindActionMap("UI", throwIfNotFound: true);
         m_UI_Navigate = m_UI.FindAction("Navigate", throwIfNotFound: true);
@@ -1123,6 +1274,9 @@ public partial class @MyPlayerInput: IInputActionCollection2, IDisposable
     private readonly InputAction m_Player_Fire;
     private readonly InputAction m_Player_MousePosition;
     private readonly InputAction m_Player_Kick;
+    private readonly InputAction m_Player_RollDice;
+    private readonly InputAction m_Player_Movescreenview;
+    private readonly InputAction m_Player_ZoominoutScreen;
     public struct PlayerActions
     {
         private @MyPlayerInput m_Wrapper;
@@ -1132,6 +1286,9 @@ public partial class @MyPlayerInput: IInputActionCollection2, IDisposable
         public InputAction @Fire => m_Wrapper.m_Player_Fire;
         public InputAction @MousePosition => m_Wrapper.m_Player_MousePosition;
         public InputAction @Kick => m_Wrapper.m_Player_Kick;
+        public InputAction @RollDice => m_Wrapper.m_Player_RollDice;
+        public InputAction @Movescreenview => m_Wrapper.m_Player_Movescreenview;
+        public InputAction @ZoominoutScreen => m_Wrapper.m_Player_ZoominoutScreen;
         public InputActionMap Get() { return m_Wrapper.m_Player; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -1156,6 +1313,15 @@ public partial class @MyPlayerInput: IInputActionCollection2, IDisposable
             @Kick.started += instance.OnKick;
             @Kick.performed += instance.OnKick;
             @Kick.canceled += instance.OnKick;
+            @RollDice.started += instance.OnRollDice;
+            @RollDice.performed += instance.OnRollDice;
+            @RollDice.canceled += instance.OnRollDice;
+            @Movescreenview.started += instance.OnMovescreenview;
+            @Movescreenview.performed += instance.OnMovescreenview;
+            @Movescreenview.canceled += instance.OnMovescreenview;
+            @ZoominoutScreen.started += instance.OnZoominoutScreen;
+            @ZoominoutScreen.performed += instance.OnZoominoutScreen;
+            @ZoominoutScreen.canceled += instance.OnZoominoutScreen;
         }
 
         private void UnregisterCallbacks(IPlayerActions instance)
@@ -1175,6 +1341,15 @@ public partial class @MyPlayerInput: IInputActionCollection2, IDisposable
             @Kick.started -= instance.OnKick;
             @Kick.performed -= instance.OnKick;
             @Kick.canceled -= instance.OnKick;
+            @RollDice.started -= instance.OnRollDice;
+            @RollDice.performed -= instance.OnRollDice;
+            @RollDice.canceled -= instance.OnRollDice;
+            @Movescreenview.started -= instance.OnMovescreenview;
+            @Movescreenview.performed -= instance.OnMovescreenview;
+            @Movescreenview.canceled -= instance.OnMovescreenview;
+            @ZoominoutScreen.started -= instance.OnZoominoutScreen;
+            @ZoominoutScreen.performed -= instance.OnZoominoutScreen;
+            @ZoominoutScreen.canceled -= instance.OnZoominoutScreen;
         }
 
         public void RemoveCallbacks(IPlayerActions instance)
@@ -1416,6 +1591,9 @@ public partial class @MyPlayerInput: IInputActionCollection2, IDisposable
         void OnFire(InputAction.CallbackContext context);
         void OnMousePosition(InputAction.CallbackContext context);
         void OnKick(InputAction.CallbackContext context);
+        void OnRollDice(InputAction.CallbackContext context);
+        void OnMovescreenview(InputAction.CallbackContext context);
+        void OnZoominoutScreen(InputAction.CallbackContext context);
     }
     public interface IUIActions
     {
